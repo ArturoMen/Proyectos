@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+* {
+    background-color: lightgray;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: black;
+    font-family: 'Grey Qo', cursive;
+    margin-bottom: -20px;
+}
+
+.input{
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.btn{
+    margin-top: 10px;
+}
